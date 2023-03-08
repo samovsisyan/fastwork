@@ -1,0 +1,34 @@
+.main {
+  background-color: var(--gray-light);
+
+  &_container {
+    width: 426px;
+    margin: 0 auto;
+    padding: 94px 0px;
+
+    &_title {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 46px;
+      line-height: 62px;
+      text-align: center;
+      color: var(--very-dark);
+    }
+
+    &_description {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      text-align: center;
+      color: var(--light-blue);
+      margin-top: 21px;
+    }
+
+    &_buttons {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 41px;
+    }
+  }
+}

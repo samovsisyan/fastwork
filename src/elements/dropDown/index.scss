@@ -1,0 +1,35 @@
+.btn-success {
+  --bs-btn-color: var(--very-dark);
+  --bs-btn-bg: var(--white);
+  --bs-btn-border-color: var(--white);
+}
+
+.btn-success:hover {
+  color: var(--very-dark);
+  background-color: var(--white);
+  border-color: var(--white);
+}
+
+.btn-check:checked+.btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check)+.btn:active {
+  color: var(--very-dark);
+  background-color: var(--white);
+  border-color: var(--white);
+}
+
+.dropdown-toggle::after {
+  border-top: none;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  background-color: var(--white);
+}
+
+
+.dropdown-menu {
+  --bs-dropdown-border-color: none;
+  padding: 0;
+}

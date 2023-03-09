@@ -30,7 +30,7 @@ const Header: FC<Partial<Interface>> = () => {
         <div className='tab'>Cart</div>
       </div>
       <SuccessButton
-        cls='btn-primary'
+        cls='btn-primary header_post_job_btn'
         title={'Post a job'}
       />
     </div>

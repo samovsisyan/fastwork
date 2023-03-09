@@ -4,12 +4,14 @@ import Header from "./pages/header";
 import Main from "./pages/main";
 import DropDown from "./elements/dropDown";
 import Categories from "./pages/header/categories";
+import Search from "./elements/search";
 
 const App: FC<any> = () => {
   return (
     <div>
       <Header />
       <Main />
+      <Search />
       {/*<SuccessButton*/}
       {/*  cls='btn-primary'*/}
       {/*  title={'Post a job'}*/}

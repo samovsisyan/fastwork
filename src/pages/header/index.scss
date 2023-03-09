@@ -4,6 +4,10 @@
   align-items: center;
   padding: 24px;
 
+  &_post_job_btn {
+    padding: 16px 24px;
+  }
+
   .navbar {
     display: flex;
     justify-content: space-between;

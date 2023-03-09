@@ -18,7 +18,7 @@ const Main: FC<Partial<Interface>> = (props) => {
         </div>
         <div className="main_container_buttons">
           <SuccessButton
-            cls='btn-primary'
+            cls='btn-primary main_container_but_template_btn'
             title={'Buy template'}
           />
           <SuccessButton

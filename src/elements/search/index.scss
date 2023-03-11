@@ -1,13 +1,13 @@
 .search {
-  border: 1px solid var(--border-color);
-  border-radius: 1000px;
-  width: 500px;
 
   &_content {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     padding: 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 1000px;
+    width: 500px;
 
     &_input {
       width: 100%;
@@ -43,8 +43,8 @@
 
     }
   }
-}
 
-.search:hover {
-  border: 1px solid var(--blue);
+  &_content:hover {
+    border: 1px solid var(--blue);
+  }
 }

@@ -1,0 +1,83 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &_content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 24px 160px;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+
+    &_social {
+     display: flex;
+     width: 100%;
+     max-width: 235px;
+     -webkit-box-pack: justify;
+     -webkit-justify-content: space-between;
+     -ms-flex-pack: justify;
+     justify-content: space-between;
+     -webkit-box-align: center;
+     -webkit-align-items: center;
+     -ms-flex-align: center;
+     align-items: center;
+
+      .image-wrapper.social-media-link:hover {
+       -webkit-transform: translate(0px, -4px);
+       -ms-transform: translate(0px, -4px);
+       transform: translate(0px, -4px);
+     }
+     .image-wrapper.social-media-link {
+       border-radius: 1000px;
+       img {
+         width: 29px;
+         max-width: 29px;
+         min-height: 29px;
+         border-radius: 1000px;
+         background-position: 50% 50%;
+         background-size: cover;
+         box-shadow: 0 6px 8px 0 rgba(8, 15, 52, 0.03);
+         -webkit-transition-property: -webkit-transform;
+         transition-property: -webkit-transform;
+         transition-property: transform;
+       }
+
+     }
+
+       .facebook {
+         box-shadow: 0 6px 8px 0 rgba(21, 116, 239, 0.21);
+       }
+
+       .twitter {
+         box-shadow: 0 6px 8px 0 rgba(27, 186, 255, 0.27);
+       }
+
+       .instagram {
+         box-shadow: 0 6px 8px 0 rgba(251, 15, 90, 0.14);
+       }
+
+       .linkedin {
+         box-shadow: 0 6px 8px 0 rgba(21, 126, 231, 0.34);
+       }
+
+       .youtube {
+         box-shadow: 0 6px 8px 0 rgba(255, 0, 0, 0.21);
+       }
+
+       .whatsapp {
+         box-shadow: 0 6px 8px 0 rgba(84, 228, 71, 0.16);
+       }
+
+   }
+
+    &_small-print {
+        font-family: 'General Sans', sans-serif;
+        color: #686781;
+        font-size: 16px;
+        line-height: 1.75em;
+        padding: 14px;
+      }
+  }
+
+}

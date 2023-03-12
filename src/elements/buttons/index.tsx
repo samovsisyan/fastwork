@@ -9,7 +9,8 @@ interface Interface {
   btnIcon: string
   btnLeftIcon: string
   iconStyle: string
-  disabled: boolean
+  disabled: boolean,
+  title: string
 }
 
 type ButtonType = Interface & ButtonHTMLAttributes<unknown>;

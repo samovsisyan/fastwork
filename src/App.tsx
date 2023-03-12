@@ -7,12 +7,14 @@ import Categories from "./pages/header/categories";
 import Search from "./elements/search";
 import Footer from "./pages/footer";
 import Subscribe from "./pages/subscribe";
+import JobPostCars from "./pages/jobPostCards";
 
 const App: FC<any> = () => {
   return (
     <div>
       <Header />
       <Main />
+      <JobPostCars />
       <Subscribe />
       <Footer />
       {/*<Search />*/}

@@ -1,0 +1,81 @@
+.featured_job_cards {
+  &_content {
+    overflow: hidden;
+    width: 586px;
+    height: 360px;
+    position: relative;
+    margin-right: 20px;
+    background-color: var(--blue);
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    opacity: 1;
+    max-width: 586px;
+    padding: 74px 46px 64px 50px;
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+
+    border-color: #e4e4ed;
+    box-shadow: 0 7px 14px 0 rgba(8, 15, 52, 0.03);
+    -ms-transform: translate(0px, 0px);
+
+    &_info {
+      &_title {
+        font-size: 32px;
+        line-height: 1.438em;
+        font-weight: 500;
+        color: var(--white);
+        margin-bottom: 34px;
+      }
+      &_description {
+        font-weight: 500;
+        color: var(--white);
+        font-size: 16px;
+        line-height: 1.75em;
+        margin-bottom: 34px;
+      }
+    }
+    &_btn {
+
+    }
+
+    .bg.cta-shape-1 {
+      position: absolute;
+      will-change: transform;
+      transform: translate3d(0px, 1.376px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+      transform-style: preserve-3d;
+      left: -200px;
+      bottom: -202px;
+      width: 67%;
+      padding-top: 67%;
+      border-radius: 50%;
+      background-color: #fff;
+      opacity: 0.07;
+    }
+    .bg.cta-shape-2 {
+      position: absolute;
+      will-change: transform;
+      transform: translate3d(0px, 0.344px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+      transform-style: preserve-3d;
+     top: -211px;
+     right: -178px;
+     width: 67%;
+     padding-top: 67%;
+     border-radius: 50%;
+     background-color: #fff;
+     opacity: 0.07;
+    }
+    .bg.cta-shape-3 {
+      position: absolute;
+      will-change: transform;
+      transform: translate3d(0px, 0.688px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+      transform-style: preserve-3d;
+      top: 250px;
+      right: -88px;
+      width: 53%;
+      padding-top: 53%;
+      border-radius: 50%;
+      background-color: #fff;
+      opacity: 0.07;
+    }
+  }
+}

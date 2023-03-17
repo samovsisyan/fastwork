@@ -1,20 +1,31 @@
 import React, {FC} from 'react';
-import {SuccessButton} from "./elements";
 import Header from "./pages/header";
 import Main from "./pages/main";
-import DropDown from "./elements/dropDown";
-import Categories from "./pages/header/categories";
-import Search from "./elements/search";
 import Footer from "./pages/footer";
 import Subscribe from "./pages/subscribe";
 import JobPostCars from "./pages/jobPostCards";
+import MainSearch from "./pages/home/mainSearch";
+import JobCard from "./elements/jobCard";
+
+import './App.css'
 
 const App: FC<any> = () => {
   return (
     <div>
       <Header />
       <Main />
+      <MainSearch />
       <JobPostCars />
+      <div className='jobs-grid'>
+          <JobCard />
+          <JobCard />
+          <JobCard />
+          <JobCard />
+          <JobCard />
+          <JobCard />
+          <JobCard />
+          <JobCard />
+      </div>
       <Subscribe />
       <Footer />
       {/*<Search />*/}

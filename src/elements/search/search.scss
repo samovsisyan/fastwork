@@ -11,6 +11,14 @@
 
     &_input {
       width: 100%;
+      input {
+        padding-right: 123px;
+        padding-left: 65px;
+        //background-image: url('/images/search_icon.svg');
+        background-position: 28px 50%;
+        background-size: auto;
+        background-repeat: no-repeat;
+      }
 
       .form-control.is-valid, .was-validated .form-control:valid {
         border-color: var(--white);

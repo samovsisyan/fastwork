@@ -1,0 +1,135 @@
+.job_card {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 21px 18px 25px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: border-color 300ms ease, -webkit-transform 300ms ease;
+  transition: border-color 300ms ease, -webkit-transform 300ms ease;
+  transition: transform 300ms ease, border-color 300ms ease;
+  transition: transform 300ms ease, border-color 300ms ease, -webkit-transform 300ms ease;
+  color: #686781;
+  text-decoration: none;
+
+  overflow: hidden;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e4e4ed;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0 7px 14px 0 rgba(8, 15, 52, 0.03);
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+  width: 100%;
+  max-width: 60%;
+  &_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    &_left_info {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      min-width: 217px;
+      margin-right: 30px;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      &_logo {
+        max-width: 58px;
+        margin-right: 22px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #e4e4ed;
+        border-radius: 8px;
+        img {
+          transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+          transform-style: preserve-3d;
+          width: 100%;
+        }
+      }
+      &_company_info {
+        display: flex;
+        flex-direction: column;
+        &_name {
+          color: rgb(23, 23, 40);
+          margin-bottom: 6px;
+          font-size: 16px;
+          line-height: 1.5em;
+          font-weight: 500;
+        }
+        &_description {
+          margin-right: 6px;
+          color: #0061ff;
+          line-height: 1.143em;
+          text-decoration: underline;
+        }
+      }
+
+    }
+    &_right_info {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      width: 100%;
+      max-width: 387px;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      &_company_info {
+        display: flex;
+        flex-direction: column;
+        &_subtitle {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          margin-bottom: 14px;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+          -ms-flex-align: center;
+          align-items: center;
+          font-size: 14px;
+          line-height: 1.143em;
+          img {
+            max-width: 14px;
+            margin-right: 5px;
+          }
+        }
+        &_types {
+
+        }
+      }
+    }
+  }
+
+
+
+}
+
+
+.job_card:hover {
+  border-color: #0061ff;
+  -webkit-transform: translate(0px, -4px);
+  -ms-transform: translate(0px, -4px);
+  transform: translate(0px, -4px);
+  color: #686781;
+}

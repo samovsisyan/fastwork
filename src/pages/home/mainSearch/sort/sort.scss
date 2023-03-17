@@ -1,0 +1,20 @@
+.search_sort {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: 1px solid var(--gray-border);
+  border-radius: 14px;
+  padding: 48px;
+  //margin-top: 12px;
+  background-color: var(--white);
+  &_container {
+    display: flex;
+    flex-direction: column;
+    &_sort_by {
+      color: var(--light-blue);
+      text-decoration: none;
+      white-space: nowrap;
+      line-height: 32px;
+    }
+  }
+}

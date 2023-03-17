@@ -1,0 +1,107 @@
+.btn-success {
+  --bs-btn-color: var(--very-dark);
+  --bs-btn-bg: var(--white);
+  --bs-btn-border-color: var(--white);
+}
+
+.btn-secondary {
+  --bs-btn-color: var(--very-dark);
+  --bs-btn-bg: var(--white);
+  --bs-btn-border-color: var(--white);
+}
+
+.btn-success:hover {
+  color: var(--blue);
+  background-color: var(--white);
+  border-color: var(--white);
+}
+
+.btn-secondary:hover {
+  color: var(--blue);
+  background-color: var(--white);
+  border-color: var(--white);
+}
+
+.btn-check:checked+.btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check)+.btn:active {
+  color: var(--very-dark);
+  background-color: var(--white);
+  border-color: var(--white);
+}
+
+.dropdown-toggle::after {
+  border-top: none;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  background-color: var(--white);
+}
+
+
+.dropdown-menu {
+  --bs-dropdown-border-color: none;
+  padding: 0;
+}
+
+.dropdown-menu.show {
+  border-radius: 14px;
+}
+
+
+.main_dropdown {
+  .drop_down_arrow {
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    font-family: 'Icons Job Board X Template', sans-serif;
+    font-size: 8px;
+    font-weight: 400;
+    transition:
+      transform 300ms ease,
+      -webkit-transform 300ms ease;
+  }
+  .drop_down_arrow {
+    color: var(--very-dark);
+    font-size: 24px;
+    transition:
+      transform 300ms ease,
+      -webkit-transform 300ms ease;
+
+      img {
+        width: 24px;
+        height: 24px;
+      }
+  }
+}
+
+
+
+.main_dropdown {
+  .row-status-btn:hover {
+    color: var(--blue);
+      .drop_down_arrow {
+        transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-180deg) skew(0deg, 0deg);
+        transform-style: preserve-3d;
+        position: relative;
+        top: 2px;
+        display: inline-block;
+        font-family: 'Icons Job Board X Template', sans-serif;
+        font-size: 8px;
+        font-weight: 400;
+        color: var(--blue);
+        //font-size: 24px;
+        img {
+          width: 24px;
+          height: 24px;
+        }
+    }
+  }
+  //.row-status-btn {
+  //  color: var(--blue);
+  //}
+}

@@ -1,7 +1,7 @@
 import React, {FC} from 'react';
 import {Input} from "../inputs";
 import {SuccessButton} from "../buttons";
-import './index.scss'
+import './search.scss'
 
 interface Interface {
   placeholder: string

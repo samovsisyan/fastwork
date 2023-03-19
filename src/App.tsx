@@ -7,6 +7,7 @@ import JobPostCars from "./pages/jobPostCards";
 import MainSearch from "./pages/home/mainSearch";
 import JobCard from "./elements/jobCard";
 import JobPage from "./pages/jobPage";
+import JobApply from "./pages/jobApply/jobApply";
 
 import './App.css'
 
@@ -14,6 +15,7 @@ const App: FC<any> = () => {
   return (
     <>
       <Header />
+      <JobApply />
       <JobPage />
       <Main />
       <MainSearch />

@@ -6,13 +6,15 @@ import Subscribe from "./pages/subscribe";
 import JobPostCars from "./pages/jobPostCards";
 import MainSearch from "./pages/home/mainSearch";
 import JobCard from "./elements/jobCard";
+import JobPage from "./pages/jobPage";
 
 import './App.css'
 
 const App: FC<any> = () => {
   return (
-    <div>
+    <>
       <Header />
+      <JobPage />
       <Main />
       <MainSearch />
       <JobPostCars />
@@ -37,7 +39,7 @@ const App: FC<any> = () => {
       {/*  cls='outline-primary'*/}
       {/*  title={'Buy template'}*/}
       {/*/>*/}
-    </div>
+    </>
   );
 };
 

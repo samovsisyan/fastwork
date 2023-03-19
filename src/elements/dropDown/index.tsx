@@ -34,7 +34,7 @@ interface Interface {
 
 const DropDown: FC<Partial<Interface>> = (props) => {
   const {mainCls, cls, title, component} = props
-  const [showDropdown, setShowDropdown] = useState(true);
+  const [showDropdown, setShowDropdown] = useState(false);
   const timeoutRef = useRef(null);
 
   const handleMouseEnter = () => {

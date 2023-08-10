@@ -78,7 +78,7 @@ const JobPage: FC<Partial<Interface>> = () => {
               </div>
             </div>
             <div className="w-richtext"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus augue
-              sagittis erat consectetur est. Blandit blandit nec <a href="#">mauris pulvinar</a>. Lectus duis amet
+              sagittis erat consectetur est. Blandit blandit nec <a href="src/old/pages/jobPage/index#">mauris pulvinar</a>. Lectus duis amet
               tortor, sit tincidunt. Rhoncus tincidunt imperdiet penatibus vitae risus, vitae. <strong>Blandit
                 auctor</strong> justo nisl massa.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus
               dictum ultrices lacus sodales nunc felis eu, consectetur arcu. Vitae nulla scelerisque id pellentesque

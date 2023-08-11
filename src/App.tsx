@@ -14,11 +14,17 @@ import JobPost from "./pages/jobPost";
 import JobItem from "./pages/jobItem";
 import './App.css'
 import './main.css'
+import Footer from "./pages/footer";
+import Pricing from "./pages/pricing";
+import JobCredit from "./pages/jobCredit";
 const App: FC<any> = () => {
   return (
     <>
       <JobPost />
       <JobItem />
+      <Pricing />
+      <JobCredit />
+      <Footer />
       {/*<Header />*/}
       {/*<JobApply />*/}
       {/*<Index />*/}

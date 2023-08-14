@@ -15,7 +15,7 @@ const JobCredit: FC<Partial<Interface>> = () => {
                  opacity: 1,
                  transformStyle: "preserve-3d"
                }}
-               className="card credit flex-direction-column"><h1 className="title card-credit">1 Job credit</h1><p
+               className="card credit job_credit_container"><h1 className="title card-credit">1 Job credit</h1><p
             className="paragraph card-credit">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus
             sit amet luctus venenatis lectus.</p>
             <div className="w-layout-grid card-credit-features-grid">

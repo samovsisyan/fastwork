@@ -12,11 +12,13 @@ import React, {FC} from 'react';
 import JobPost from "./pages/jobPost";
 
 import JobItem from "./pages/jobItem";
-import './App.css'
-import './main.css'
+
 import Footer from "./pages/footer";
 import Pricing from "./pages/pricing";
 import JobCredit from "./pages/jobCredit";
+import './App.css'
+import './main.css'
+import './index.css'
 const App: FC<any> = () => {
   return (
     <>

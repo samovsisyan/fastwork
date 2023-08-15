@@ -1,0 +1,4 @@
+.contact_info {
+    display: flex !important;
+    flex-direction: column !important;
+}

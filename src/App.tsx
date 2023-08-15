@@ -16,12 +16,29 @@ import JobItem from "./pages/jobItem";
 import Footer from "./pages/footer";
 import Pricing from "./pages/pricing";
 import JobCredit from "./pages/jobCredit";
+
+import About from "./pages/about";
+import Contact from "./pages/contact";
 import './App.css'
 import './main.css'
 import './index.css'
+import Home from "./pages/home";
+import Companies from "./pages/companies";
+import JobCategory from "./pages/jobCategory";
+import CompanySingle from "./pages/companySingle";
+import Blog from "./pages/blog";
+import BlogPost from "./pages/blogPost";
 const App: FC<any> = () => {
   return (
     <>
+      <BlogPost />
+      <Blog />
+      <CompanySingle />
+      <JobCategory />
+      <Companies />
+      <Home />
+      <Contact />
+      <About />
       <JobPost />
       <JobItem />
       <Pricing />

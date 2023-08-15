@@ -3661,3 +3661,8 @@ body {
 .fw-fw-100 {
   padding-right: 100px;
 }
+
+.flex-direction-column {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,5023 @@
+.split-content.checkout-left {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.split-content.checkout-right {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.split-content.header-left {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.split-content.job-board-content {
+    width: 100%;
+    max-width: 849px;
+    margin-right: 30px;
+}
+
+.split-content.job-sidebar {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    max-width: 306px;
+}
+
+.split-content.card-job-left {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-width: 217px;
+    margin-right: 30px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.split-content.card-job-left.result-job {
+    width: 100%;
+    max-width: 360px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+.split-content.card-job-right {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    max-width: 387px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.split-content.header-center {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.split-content.job-post-sidebar {
+    max-width: 306px;
+}
+
+.split-content.job-post-body {
+    max-width: 849px;
+    margin-right: 30px;
+}
+
+.split-content.content-top-company-left {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.split-content.post-job-sidebar {
+    max-width: 306px;
+    margin-right: 30px;
+}
+
+.split-content.credit-sidebar {
+    max-width: 408px;
+    min-width: 314px;
+}
+
+.split-content.about-hero-left {
+    max-width: 586px;
+    margin-right: 30px;
+}
+
+.split-content.about-hero-right {
+    max-width: 555px;
+}
+
+.split-content.about-achievements-left {
+    max-width: 425px;
+    margin-right: 30px;
+}
+
+.split-content.about-achievements-right {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    max-width: 661px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.split-content.contact-content {
+    max-width: 35%;
+    margin-right: 30px;
+}
+
+.checkout-field-label {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.checkout-required-text {
+    color: #0061ff;
+}
+
+.checkout-billing-address-toggle {
+    margin-top: 10px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.checkout-checkbox-label {
+    margin-bottom: 0px;
+}
+
+.checkout-checkbox {
+    margin-top: 0px;
+}
+
+.order-item-list {
+    margin-bottom: -40px;
+}
+
+.order-item {
+    margin-bottom: 40px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.image-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+}
+
+.image-wrapper.order-item-image {
+    max-width: 80px;
+    margin-right: 20px;
+    border-radius: 20px;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+}
+
+.image-wrapper.order-item-image:hover {
+    -webkit-transform: scale(1.03) translate(0px, 0px);
+    -ms-transform: scale(1.03) translate(0px, 0px);
+    transform: scale(1.03) translate(0px, 0px);
+}
+
+.image-wrapper.card-job-board-post-icon {
+    max-width: 58px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.image-wrapper.featured-company {
+    max-width: 50px;
+    margin-right: 12px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e4e4ed;
+    border-radius: 8px;
+}
+
+.image-wrapper.card-job {
+    max-width: 58px;
+    margin-right: 22px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e4e4ed;
+    border-radius: 8px;
+}
+
+.image-wrapper.card-job.result-job {
+    margin-bottom: 20px;
+}
+
+.image-wrapper.social-media-link {
+    width: 29px;
+    max-width: 29px;
+    min-height: 29px;
+    border-radius: 1000px;
+    background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
+    background-position: 50% 50%;
+    background-size: cover;
+    box-shadow: 0 6px 8px 0 rgba(8, 15, 52, 0.03);
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+}
+
+.image-wrapper.social-media-link:hover {
+    -webkit-transform: translate(0px, -4px);
+    -ms-transform: translate(0px, -4px);
+    transform: translate(0px, -4px);
+}
+
+.image-wrapper.social-media-link.facebook {
+    background-image: url("https://assets.website-files.com/60c77302fcfa2b84ab595f64/60c7f5ad2c253cde6fa0aafa_icon-1-social-media-job-board-x-template.svg");
+    box-shadow: 0 6px 8px 0 rgba(21, 116, 239, 0.21);
+}
+
+.image-wrapper.social-media-link.twitter {
+    background-image: url("https://assets.website-files.com/60c77302fcfa2b84ab595f64/60c7f5ae62eab41e8181d0a9_icon-2-social-media-job-board-x-template.svg");
+    box-shadow: 0 6px 8px 0 rgba(27, 186, 255, 0.27);
+}
+
+.image-wrapper.social-media-link.instagram {
+    background-image: url("https://assets.website-files.com/60c77302fcfa2b84ab595f64/60c7f5ae3f8dab6628bbdabf_icon-3-social-media-job-board-x-template.svg");
+    box-shadow: 0 6px 8px 0 rgba(251, 15, 90, 0.14);
+}
+
+.image-wrapper.social-media-link.linkedin {
+    background-image: url("https://assets.website-files.com/60c77302fcfa2b84ab595f64/60c7f5ae0a2d590f4789708e_icon-4-social-media-job-board-x-template.svg");
+    box-shadow: 0 6px 8px 0 rgba(21, 126, 231, 0.34);
+}
+
+.image-wrapper.social-media-link.youtube {
+    background-image: url("https://assets.website-files.com/60c77302fcfa2b84ab595f64/60c7f5af19dbd4541841e796_icon-5-social-media-job-board-x-template.svg");
+    box-shadow: 0 6px 8px 0 rgba(255, 0, 0, 0.21);
+}
+
+.image-wrapper.social-media-link.whatsapp {
+    background-image: url("https://assets.website-files.com/60c77302fcfa2b84ab595f64/60c7f5aff6ab3f90a786ccd3_icon-6-social-media-job-board-x-template.svg");
+    box-shadow: 0 6px 8px 0 rgba(84, 228, 71, 0.16);
+}
+
+.image-wrapper.card-job-post {
+    min-height: 143px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+.image-wrapper.card-job-post-logo {
+    width: 96px;
+    min-height: 96px;
+    min-width: 96px;
+    margin-right: auto;
+    margin-bottom: 23px;
+    margin-left: auto;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #fff;
+    border-radius: 20px;
+}
+
+.image-wrapper.card-job-post-sidebar-icon {
+    width: 58px;
+    min-height: 58px;
+    min-width: 58px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.image-wrapper.company-item {
+    width: 100%;
+    max-width: 99px;
+    margin-right: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e4e4ed;
+    border-radius: 18px;
+}
+
+.image-wrapper.company {
+    width: 100%;
+    max-width: 149px;
+    margin-right: 28px;
+    margin-left: -6px;
+    border-style: solid;
+    border-width: 6px;
+    border-color: #fff;
+    border-radius: 34px;
+    background-color: #fff;
+}
+
+.image-wrapper.job-empty-state-icon {
+    max-width: 80px;
+    margin-bottom: 32px;
+    border-radius: 14px;
+}
+
+.image-wrapper.post-job-step {
+    max-width: 72px;
+    margin-bottom: 32px;
+    border-radius: 8px;
+}
+
+.image-wrapper.about-hero-1 {
+    border-radius: 23px;
+}
+
+.image-wrapper.about-hero-2 {
+    border-radius: 23px;
+}
+
+.image-wrapper.about-hero-2.mobile {
+    display: none;
+}
+
+.image-wrapper.card-post-featured-item {
+    max-width: 612px;
+}
+
+.image-wrapper.card-post-item {
+    position: relative;
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
+}
+
+.image-wrapper.post-main-image {
+    max-height: 555px;
+    min-height: 490px;
+}
+
+.image-wrapper.card-post-section-item {
+    position: relative;
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
+}
+
+.image-wrapper.contact-link-icon {
+    max-width: 48px;
+    min-width: 48px;
+    margin-right: 14px;
+    border-radius: 12px;
+}
+
+.image-wrapper.card-contact-email-link {
+    width: 64px;
+    min-height: 64px;
+    min-width: 64px;
+    margin-right: 21px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+.image-wrapper.card-credit-item-icon {
+    width: 72px;
+    max-height: 72px;
+    min-height: 72px;
+    min-width: 72px;
+    margin-bottom: 24px;
+    border-radius: 8px;
+}
+
+.image.order-item-image {
+    width: auto;
+    height: auto;
+}
+
+.image.card-job-board-post-icon {
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.image.featured-company {
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.image.card-job {
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.image.jobs-filters-dropdown-icon {
+    max-width: 19px;
+    margin-right: 10px;
+}
+
+.image.card-job-post {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.image.card-job-post-logo {
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.image.card-job-post-sidebar-icon {
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.image.company-item {
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.image.company-cover {
+    width: 100%;
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.image.company {
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.image.company-about-details-icon {
+    max-width: 12px;
+    margin-right: 8px;
+}
+
+.image.job-category {
+    max-width: 58px;
+    margin-right: 16px;
+    border-radius: 8px;
+}
+
+.image.job-empty-state {
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.image.post-job-step {
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.image.pricing-free-feature-icon {
+    max-width: 26px;
+    margin-top: -3px;
+    margin-right: 10px;
+    border-radius: 10000px;
+}
+
+.image.credit-feature-icon {
+    max-width: 26px;
+    margin-top: -3px;
+    margin-right: 14px;
+    border-radius: 10000px;
+}
+
+.image.about-hero-1 {
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.image.about-hero-2 {
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.image.about-testimonial-slide-image {
+    width: 236px;
+}
+
+.image.card-post-featured-item {
+    width: 100%;
+    min-height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.image.card-post-item {
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.image.post-main-image {
+    width: 100%;
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.image.card-post-section-item {
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.image.style-guide-icon {
+    width: 80px;
+    max-height: 80px;
+    min-height: 80px;
+    min-width: 80px;
+    border-radius: 20px;
+}
+
+.image.card-credit-item-icon {
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.image.jobs-filters {
+    width: 48px;
+    max-height: 48px;
+    min-height: 48px;
+    min-width: 48px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+.image.dropdown-icon {
+    max-width: 13px;
+    min-width: 13px;
+    margin-left: auto;
+}
+
+.order-item-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 16px;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.order-item-content {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.order-item-price {
+    color: #171728;
+    font-weight: 600;
+}
+
+.order-item-result {
+    color: #171728;
+    font-weight: 500;
+}
+
+.apple-pay {
+    height: 62px;
+    border-radius: 9999px;
+}
+
+.checkout-line-item {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.order-summary-subtotal {
+    color: #171728;
+    font-weight: 500;
+}
+
+.order-summary-total {
+    color: #171728;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.discounts {
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    border-width: 0px;
+}
+
+.paypal {
+    margin-bottom: 15px;
+}
+
+.checkout-hero-wrapper {
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.header-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.header-wrapper.v3 {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.cart-button {
+    padding: 0px;
+    background-color: transparent;
+    color: #171728;
+    line-height: 1.125em;
+}
+
+.cart-quantity {
+    height: auto;
+    min-width: auto;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    color: #0061ff;
+    font-size: 16px;
+    line-height: 1.125em;
+    font-weight: 400;
+}
+
+.cart-container {
+    max-width: 500px;
+    min-width: auto;
+}
+
+.grid-licenses-images {
+    margin-top: 24px;
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+}
+
+.licenses-link-image-container {
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px 0 rgba(23, 23, 40, 0.06);
+    -webkit-transition: box-shadow 350ms ease, -webkit-transform 350ms ease;
+    transition: box-shadow 350ms ease, -webkit-transform 350ms ease;
+    transition: box-shadow 350ms ease, transform 350ms ease;
+    transition: box-shadow 350ms ease, transform 350ms ease, -webkit-transform 350ms ease;
+}
+
+.licenses-link-image-container:hover {
+    box-shadow: 0 6px 12px 0 rgba(23, 23, 40, 0.09);
+    -webkit-transform: translate(0px, -4px);
+    -ms-transform: translate(0px, -4px);
+    transform: translate(0px, -4px);
+}
+
+.bg-neutral-800 {
+    background-color: #171728;
+}
+
+.container-medium-736px {
+    max-width: 736px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.container-medium-736px.home-hero {
+    margin-bottom: 110px;
+    text-align: center;
+}
+
+.container-medium-736px.home-hero.search {
+    margin-bottom: 155px;
+}
+
+.companies-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 68px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.companies-wrapper.about-hero {
+    margin-bottom: 0px;
+}
+
+.companies-logos-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    max-width: 803px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.companies-text {
+    line-height: 1.25em;
+    font-weight: 500;
+}
+
+.job-board-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.featured-jobs-wrapper {
+    margin-bottom: 66px;
+}
+
+.bg {
+    position: absolute;
+}
+
+.bg.home-hero {
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    z-index: -1;
+    min-height: 494px;
+    background-color: #f2f5ff;
+}
+
+.bg.cta-shape-1 {
+    left: -200px;
+    bottom: -202px;
+    width: 67%;
+    padding-top: 67%;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.07;
+}
+
+.bg.cta-shape-2 {
+    top: -211px;
+    right: -178px;
+    width: 67%;
+    padding-top: 67%;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.07;
+}
+
+.bg.cta-shape-3 {
+    top: 250px;
+    right: -88px;
+    width: 53%;
+    padding-top: 53%;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.07;
+}
+
+.bg.contact {
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    z-index: -1;
+    min-height: 588px;
+    background-color: #fafafa;
+}
+
+.job-board-post-links-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-job-board-post-free-link {
+    color: #8c8c9e;
+    font-size: 14px;
+    line-height: 1.143em;
+}
+
+.card-job-board-post-free-link:hover {
+    color: #0061ff;
+}
+
+.featured-companies-grid {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-row-gap: 14px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+}
+
+.featured-company-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #686781;
+    text-decoration: none;
+}
+
+.featured-company-wrapper:hover {
+    color: #686781;
+}
+
+.featured-company-content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 15px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.featured-company-arrow-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    max-width: 17px;
+    min-height: 17px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+.featured-company-arrow-1 {
+    position: relative;
+    width: 16px;
+    min-height: 1px;
+    border-radius: 999999999999px;
+    background-color: #8c8c9e;
+}
+
+.featured-company-arrow-2 {
+    position: relative;
+    right: -2px;
+    bottom: 2px;
+    width: 10px;
+    min-height: 1px;
+    border-radius: 999999999999px;
+    background-color: #8c8c9e;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.featured-company-arrow-3 {
+    position: relative;
+    right: -2px;
+    bottom: -2px;
+    width: 10px;
+    min-height: 1px;
+    border-radius: 999999999999px;
+    background-color: #8c8c9e;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.featured-jobs-grid {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-row-gap: 18px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+}
+
+.card-link-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.card-link-wrapper.weight-medium {
+    margin-right: 1px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.card-link {
+    margin-right: 6px;
+    color: #0061ff;
+    line-height: 1.143em;
+    text-decoration: underline;
+}
+
+.card-link.featured {
+    color: #33334e;
+}
+
+.card-link-arrow {
+    position: relative;
+    top: 5px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 10px;
+    min-height: 10px;
+    min-width: 10px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+}
+
+.card-link-arrow-1 {
+    position: absolute;
+    bottom: 4px;
+    width: 11px;
+    height: 1px;
+    background-color: #0061ff;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.card-link-arrow-1.featured {
+    background-color: #33334e;
+}
+
+.card-link-arrow-2 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 8px;
+    min-height: 1px;
+    background-color: #0061ff;
+}
+
+.card-link-arrow-2.featured {
+    background-color: #33334e;
+}
+
+.card-link-arrow-3 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 1px;
+    min-height: 8px;
+    min-width: 1px;
+    background-color: #0061ff;
+}
+
+.card-link-arrow-3.featured {
+    background-color: #33334e;
+}
+
+.card-job-category-title-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 14px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 1.143em;
+}
+
+.card-job-category-text {
+    color: #171728;
+    line-height: 1.25em;
+    font-weight: 500;
+}
+
+.card-job-category-title-icon {
+    max-width: 14px;
+    margin-right: 5px;
+}
+
+.jobs-grid {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-row-gap: 18px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+}
+
+.cta-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.home-jobs-filter-search {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 420px;
+    min-width: 328px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.home-jobs-filters-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    max-width: 684px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.jobs-filters-dropdown-button {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 68px;
+    padding-right: 22px;
+    padding-left: 22px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e4e4ed;
+    border-radius: 10000px;
+    -webkit-transition: border-color 300ms ease;
+    transition: border-color 300ms ease;
+}
+
+.jobs-filters-dropdown-button:hover {
+    border-color: #0061ff;
+}
+
+.jobs-filters-dropdown-button.w--open {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #33334e;
+}
+
+.jobs-filters-dropdown-button.last {
+    margin-right: 0px;
+}
+
+.jobs-filters-dropdown-button.job-category-filter {
+    margin-right: 0px;
+    padding-right: 33px;
+    padding-left: 33px;
+}
+
+.jobs-filters-dropdown {
+    width: 100%;
+    max-width: 220px;
+    margin-right: 5px;
+    line-height: 1.125em;
+}
+
+.jobs-filters-dropdown.job-category-filter {
+    max-width: none;
+    min-width: 170px;
+}
+
+.jobs-filters-dropdown-list {
+    padding-top: 20px;
+    background-color: transparent;
+}
+
+.jobs-filters-dropdown-links-grid {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-align: start;
+    -webkit-align-items: start;
+    -ms-flex-align: start;
+    align-items: start;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+}
+
+.jobs-filters-dropdown-links-grid.header-dropdown {
+    margin-right: 30px;
+    margin-bottom: 16px;
+}
+
+.jobs-filters-dropdown-links-grid.header-dropdown.last {
+    margin-right: 0px;
+}
+
+.dropdown-nav-link {
+    color: #686781;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.dropdown-nav-link:hover {
+    color: #0061ff;
+}
+
+.dropdown-nav-link.special {
+    display: inline-block;
+    padding-bottom: 6px;
+    border-bottom: 3px solid #0061ff;
+    -webkit-transition: border-color 300ms ease, color 300ms ease;
+    transition: border-color 300ms ease, color 300ms ease;
+    color: #0061ff;
+    font-weight: 600;
+}
+
+.dropdown-nav-link.special:hover {
+    border-bottom-color: #171728;
+    color: #171728;
+}
+
+.job-sidebar-wrapper {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    z-index: -1;
+}
+
+.footer-content-top {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.footer-content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.footer-content-bottom {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.footer-content-bottom.v2 {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-content-bottom.v3 {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.footer-main-content {
+    max-width: 408px;
+    margin-right: 30px;
+}
+
+.footer-main-content.v2 {
+    max-width: 100%;
+}
+
+.footer-newsletter-form-block {
+    width: 100%;
+    max-width: 510px;
+    margin-bottom: 0px;
+}
+
+.footer-newsletter-form {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.footer-social-media-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    max-width: 235px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.footer-menu-main-content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    max-width: 552px;
+    margin-right: 40px;
+    margin-bottom: -30px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.footer-menu-main-content.v2.right {
+    max-width: 680px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.footer-menu-main-content.v2.left {
+    max-width: 500px;
+    margin-bottom: 0px;
+}
+
+.footer-menu-wrapper {
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+
+.footer-menu-wrapper.last {
+    margin-right: 0px;
+}
+
+.footer-menu-content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.footer-nav-link {
+    color: #686781;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.footer-nav-link:hover {
+    color: #0061ff;
+}
+
+.footer-nav-link.special {
+    display: inline-block;
+    padding-bottom: 6px;
+    border-bottom: 3px solid #0061ff;
+    -webkit-transition: border-color 300ms ease, color 300ms ease;
+    transition: border-color 300ms ease, color 300ms ease;
+    color: #0061ff;
+    font-weight: 600;
+}
+
+.footer-nav-link.special:hover {
+    border-bottom-color: #171728;
+    color: #171728;
+}
+
+.footer-menu-job-categories-content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    max-width: 552px;
+    margin-bottom: -30px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.brand {
+    padding-left: 0px;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.brand:hover {
+    -webkit-transform: scale3d(1.03, 1.03, 1.01);
+    transform: scale3d(1.03, 1.03, 1.01);
+}
+
+.backlink-wrapper {
+    margin-bottom: 32px;
+    line-height: 1.25em;
+}
+
+.job-post-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.card-job-post-content {
+    max-width: 699px;
+    margin-top: -46px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.card-job-post-content-top {
+    text-align: center;
+}
+
+.card-job-post-title-wrapper {
+    margin-bottom: 40px;
+}
+
+.card-job-post-categories-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.card-job-post-category-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.card-job-post-category-title-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 14px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 1.143em;
+}
+
+.card-job-post-category-title-icon {
+    max-width: 14px;
+    margin-right: 8px;
+}
+
+.card-job-post-category-text {
+    color: #171728;
+    line-height: 1.25em;
+    font-weight: 500;
+}
+
+.job-description-title-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 16px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.job-description-date-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    line-height: 1.25em;
+    font-weight: 500;
+}
+
+.job-description-date-text {
+    color: #171728;
+}
+
+.content-top {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+
+@media screen and (min-width: 1920px) {
+    .image-home-link-wrapper {
+        max-width: 560px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    h1 {
+        margin-bottom: 20px;
+        font-size: 38px;
+    }
+
+    h3 {
+        margin-bottom: 15px;
+    }
+
+    blockquote {
+        padding: 40px 80px 42px;
+    }
+
+    .style-guide-sidebar {
+        display: none;
+    }
+
+    .container-default {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: stretch;
+        -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+    }
+
+    .style-guide-content {
+        margin-left: 0px;
+    }
+
+    .section-styleguide {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .style-guide-header {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .typography-container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .style-guide-subheader {
+        padding-top: 34px;
+        padding-bottom: 34px;
+    }
+
+    .style-guide-content-wrapper {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .buttons-grid {
+        grid-row-gap: 40px;
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .button-primary.small.card-job-board-post {
+        padding-top: 22px;
+        padding-bottom: 22px;
+    }
+
+    .button-primary.small.card-job-post-sidebar {
+        margin-top: auto;
+        padding-top: 22px;
+        padding-bottom: 22px;
+    }
+
+    .button-primary.full-width.credit-add-cart-button {
+        width: 50%;
+        margin-right: 30px;
+    }
+
+    .button-primary.header-button.button-mobile {
+        display: block;
+        padding-top: 22px;
+        padding-bottom: 22px;
+    }
+
+    .button-primary.post-job-form-button {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .button-secondary.small.card-job-post-sidebar-about-company {
+        margin-top: auto;
+        padding-top: 22px;
+        padding-bottom: 22px;
+    }
+
+    .button-secondary.full-width.credit-add-cart-button {
+        width: 50%;
+        margin-top: 0px;
+    }
+
+    .cards-grid {
+        grid-row-gap: 64px;
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .header-navigation {
+        margin-right: 24px;
+        margin-left: 24px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: stretch;
+        -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+    }
+
+    .nav-item-wrapper {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        margin-right: 0px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .nav-item-wrapper.button-mobile {
+        display: block;
+        margin-top: 150px;
+    }
+
+    .nav-link {
+        font-size: 28px;
+    }
+
+    .nav-link.dropdown.w--open {
+        display: inline-block;
+    }
+
+    .menu-button {
+        width: 54px;
+        max-height: 54px;
+        min-height: 54px;
+        min-width: 54px;
+        margin-left: 20px;
+        border-radius: 1000px;
+        background-color: #0061ff;
+        -webkit-transition: background-color 350ms ease;
+        transition: background-color 350ms ease;
+        color: #fff;
+        font-size: 30px;
+    }
+
+    .menu-button:hover {
+        background-color: #034fcb;
+    }
+
+    .menu-button.w--open {
+        background-color: #034fcb;
+    }
+
+    .nav-menu {
+        left: 0px;
+        right: 0px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100vw;
+        max-width: 100%;
+        padding-top: 113px;
+        padding-bottom: 60px;
+        background-color: #fafafa;
+    }
+
+    .footer {
+        padding-top: 50px;
+    }
+
+    .footer-logo-container {
+        margin-bottom: 27px;
+    }
+
+    .section {
+        padding-top: 112px;
+        padding-bottom: 112px;
+    }
+
+    .section.home {
+        padding-top: 86px;
+        padding-bottom: 80px;
+    }
+
+    .section.cta {
+        padding-bottom: 64px;
+    }
+
+    .section.companies {
+        padding-top: 44px;
+        padding-bottom: 64px;
+    }
+
+    .section.company {
+        padding-bottom: 70px;
+    }
+
+    .section.job-category-hero {
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, #fff), color-stop(0, #fafafa));
+        background-image: linear-gradient(180deg, #fff 70%, #fafafa 0);
+    }
+
+    .section.bg-neutral-200.job-category {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .section.post-job {
+        padding-top: 46px;
+    }
+
+    .section.pricing {
+        padding-top: 45px;
+    }
+
+    .section.credit {
+        padding-top: 57px;
+        padding-bottom: 96px;
+    }
+
+    .section.about-hero {
+        padding-top: 57px;
+        padding-bottom: 91px;
+    }
+
+    .section.about-testimonials {
+        padding-bottom: 80px;
+    }
+
+    .section.blog {
+        padding-top: 46px;
+        padding-bottom: 96px;
+    }
+
+    .section.post-more-articles {
+        padding-top: 86px;
+        padding-bottom: 64px;
+    }
+
+    .section.contact {
+        padding-top: 56px;
+    }
+
+    .section.faqs {
+        padding-bottom: 128px;
+    }
+
+    .section.pricing-category {
+        padding-top: 45px;
+    }
+
+    .section.blog-category {
+        padding-top: 46px;
+        padding-bottom: 96px;
+    }
+
+    .section.utility-page {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    ._404-title {
+        font-size: 160px;
+    }
+
+    .container-medium-770px.changelog {
+        margin-top: -130px;
+    }
+
+    .divider.footer-content-top-divider {
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+
+    .divider.footer-content-bottom-divider {
+        margin-top: 68px;
+    }
+
+    .divider.card-post-job-form {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .divider.card-credit-item {
+        width: 1px;
+        margin: 0px 40px;
+        -webkit-align-self: stretch;
+        -ms-flex-item-align: stretch;
+        -ms-grid-row-align: stretch;
+        align-self: stretch;
+    }
+
+    .divider.card-post {
+        margin-top: 72px;
+        margin-bottom: 53px;
+    }
+
+    .paragraph.card-job-board-post {
+        max-width: 348px;
+    }
+
+    .paragraph.cta {
+        max-width: 507px;
+        margin-right: auto;
+        margin-bottom: 28px;
+        margin-left: auto;
+    }
+
+    .paragraph.card-credit {
+        max-width: 488px;
+    }
+
+    .paragraph.about-achievements {
+        margin-bottom: 40px;
+    }
+
+    .paragraph.about-testimonial-slide {
+        margin-bottom: 40px;
+    }
+
+    .paragraph.card-post {
+        margin-bottom: 30px;
+    }
+
+    .paragraph.contact {
+        margin-bottom: 40px;
+    }
+
+    .card.home-jobs-filters {
+        margin-bottom: 53px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .card.job-board-post {
+        width: 100%;
+        max-width: 50%;
+        margin-right: 20px;
+        margin-bottom: 0px;
+    }
+
+    .card.job-board-featured-companies {
+        width: 100%;
+        max-width: 50%;
+    }
+
+    .card.cta {
+        max-width: 100%;
+        padding-top: 62px;
+        padding-right: 50px;
+        padding-bottom: 53px;
+        text-align: center;
+    }
+
+    .card.cta.featured {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    .card.job-post {
+        margin-bottom: 60px;
+        padding-bottom: 70px;
+    }
+
+    .card.job-post-sidebar {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        max-width: 50%;
+        margin-right: 30px;
+        margin-bottom: 0px;
+        padding-right: 25px;
+        padding-left: 25px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .card.job-post-sidebar.last {
+        margin-right: 0px;
+    }
+
+    .card.company-item {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .card.company {
+        padding-bottom: 67px;
+    }
+
+    .card.job-category-filters {
+        padding: 40px 62px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: stretch;
+        -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+    }
+
+    .card.job-empty-state {
+        padding-top: 72px;
+        padding-bottom: 72px;
+    }
+
+    .card.post-job-form-card.empty {
+        position: static;
+    }
+
+    .card.credit-item-card {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .card.credit {
+        max-width: 100%;
+        margin-right: 0px;
+        margin-bottom: 40px;
+        padding: 54px;
+    }
+
+    .card.pay-credit {
+        padding-right: 54px;
+        padding-left: 54px;
+    }
+
+    .card.post-featured-item {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .card.post-item {
+        -webkit-box-align: stretch;
+        -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+    }
+
+    .card.post {
+        padding: 74px 40px 98px;
+    }
+
+    .card.post-section-item {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+
+    .card.contact {
+        max-width: 100%;
+    }
+
+    .card.contact-email-link {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .card.default {
+        padding-top: 50px;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .checkout-form {
+        padding-top: 80px;
+        padding-bottom: 128px;
+    }
+
+    .checkout-block-header {
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+
+    .checkout-block-content {
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+
+    .title.home-hero {
+        max-width: 550px;
+        margin-right: auto;
+        margin-bottom: 10px;
+        margin-left: auto;
+    }
+
+    .title.h4-size.card-post-item {
+        margin-bottom: 20px;
+    }
+
+    .title.h4-size.card-post-section-item {
+        max-width: 417px;
+        margin-bottom: 20px;
+    }
+
+    .title.featured-jobs {
+        margin-bottom: 20px;
+    }
+
+    .title.jobs {
+        margin-bottom: 20px;
+    }
+
+    .title.cta {
+        margin-bottom: 10px;
+    }
+
+    .title.footer-menu {
+        margin-bottom: 30px;
+    }
+
+    .title.h3-size.company-job-openings {
+        margin-bottom: 27px;
+    }
+
+    .title.h3-size.company-about {
+        margin-bottom: 20px;
+    }
+
+    .title.h3-size.company-perks {
+        margin-bottom: 20px;
+    }
+
+    .title.companies {
+        margin-bottom: 10px;
+    }
+
+    .title.pricing-free {
+        margin-bottom: 10px;
+    }
+
+    .title.about-hero {
+        margin-bottom: 15px;
+    }
+
+    .title.about-achievements {
+        margin-bottom: 10px;
+    }
+
+    .title.about-testimonials {
+        margin-bottom: 10px;
+    }
+
+    .title.about-testimonial-slide {
+        margin-bottom: 10px;
+    }
+
+    .title.h1-size {
+        font-size: 38px;
+    }
+
+    .split-content.checkout-left {
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+
+    .split-content.header-left {
+        position: relative;
+        z-index: 99;
+    }
+
+    .split-content.job-board-content {
+        max-width: 100%;
+        margin-right: 0px;
+        margin-bottom: 60px;
+    }
+
+    .split-content.job-sidebar {
+        max-width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .split-content.header-center {
+        margin-right: 20px;
+        margin-left: auto;
+    }
+
+    .split-content.job-post-sidebar {
+        display: none;
+        max-width: 100%;
+    }
+
+    .split-content.job-post-body {
+        max-width: 100%;
+        margin-right: 0px;
+    }
+
+    .split-content.post-job-sidebar {
+        display: none;
+    }
+
+    .split-content.credit-sidebar {
+        max-width: 100%;
+        min-width: auto;
+    }
+
+    .split-content.about-hero-left {
+        max-width: 100%;
+        margin-right: 0px;
+    }
+
+    .split-content.about-hero-right {
+        display: none;
+        max-width: 100%;
+    }
+
+    .split-content.about-achievements-left {
+        margin-right: 0px;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+    .split-content.contact-content {
+        max-width: 566px;
+        margin-right: auto;
+        margin-bottom: 60px;
+        margin-left: auto;
+        text-align: center;
+    }
+
+    .image-wrapper.company-item {
+        max-width: 83px;
+        margin-bottom: 20px;
+    }
+
+    .image-wrapper.company {
+        max-width: 140px;
+        margin-right: 23px;
+    }
+
+    .image-wrapper.about-hero-1 {
+        margin-right: 30px;
+    }
+
+    .image-wrapper.about-hero-2.mobile {
+        display: block;
+    }
+
+    .image-wrapper.card-post-featured-item {
+        max-width: 100%;
+    }
+
+    .image-wrapper.post-main-image {
+        min-height: 378px;
+    }
+
+    .image-wrapper.card-post-section-item {
+        width: 100%;
+        max-width: 44%;
+    }
+
+    .image-wrapper.contact-link-icon {
+        margin-right: 10px;
+    }
+
+    .image-wrapper.card-contact-email-link {
+        margin-right: 0px;
+    }
+
+    .image-wrapper.card-credit-item-icon {
+        margin-bottom: 20px;
+    }
+
+    .image.company-logo {
+        margin-right: 15px;
+        margin-left: 15px;
+        -o-object-fit: scale-down;
+        object-fit: scale-down;
+    }
+
+    .image.company-logo.first {
+        margin-left: 0px;
+    }
+
+    .image.company-logo.last {
+        margin-right: 0px;
+    }
+
+    .image.about-testimonial-slide-image {
+        margin-bottom: 35px;
+    }
+
+    .image.card-post-section-item {
+        min-height: 100%;
+    }
+
+    .container-medium-736px.home-hero {
+        margin-bottom: 80px;
+    }
+
+    .container-medium-736px.home-hero.search {
+        margin-bottom: 100px;
+    }
+
+    .companies-wrapper {
+        margin-bottom: 57px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .companies-text {
+        margin-bottom: 20px;
+    }
+
+    .job-board-wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .featured-jobs-wrapper {
+        margin-bottom: 55px;
+    }
+
+    .bg.cta-shape-1 {
+        left: -276px;
+        bottom: -322px;
+    }
+
+    .bg.cta-shape-2 {
+        top: -454px;
+    }
+
+    .bg.cta-shape-3 {
+        top: 236px;
+        right: -144px;
+    }
+
+    .card-job-board-post-content {
+        max-width: 387px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .card-job-category-title-wrapper {
+        margin-bottom: 10px;
+    }
+
+    .cta-wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .home-jobs-filter-search {
+        width: 100%;
+        max-width: 684px;
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+
+    .job-sidebar-wrapper {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .footer-content-top {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .footer-content-bottom {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -webkit-flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .footer-main-content {
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+
+    .footer-newsletter-form-block {
+        max-width: 613px;
+    }
+
+    .footer-social-media-wrapper {
+        margin-bottom: 15px;
+    }
+
+    .footer-menu-main-content {
+        max-width: 613px;
+        margin-right: 0px;
+    }
+
+    .footer-menu-main-content.v2.right {
+        max-width: 100%;
+    }
+
+    .footer-menu-main-content.v2.left {
+        max-width: 100%;
+    }
+
+    .footer-menu-job-categories-content {
+        max-width: 613px;
+        margin-top: 30px;
+    }
+
+    .brand {
+        z-index: 99;
+    }
+
+    .job-post-wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .card-job-post-content {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    .card-job-post-category-title-wrapper {
+        margin-bottom: 10px;
+    }
+
+    .content-top.company {
+        margin-bottom: 40px;
+    }
+
+    .content-top.blog {
+        margin-bottom: 60px;
+    }
+
+    .content-top.blog-category {
+        margin-bottom: 60px;
+    }
+
+    .job-post-sidebar-wrapper {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .job-post-sidebar-wrapper.mobile {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        margin-bottom: 60px;
+    }
+
+    .card-job-post-sidebar-content {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+    }
+
+    .container-small-550px.companies {
+        margin-bottom: 50px;
+    }
+
+    .companies-grid {
+        grid-column-gap: 20px;
+    }
+
+    .company-content {
+        margin-top: -45px;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .company-content-top-wrapper {
+        margin-bottom: 10px;
+    }
+
+    .company-tabs-menu {
+        margin-bottom: 60px;
+    }
+
+    .company-tab-link {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .company-about-details-wrapper {
+        margin-right: 37px;
+    }
+
+    .job-category-title-wrapper {
+        margin-bottom: 20px;
+    }
+
+    .job-category-filter-search {
+        max-width: 100%;
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+
+    .featured-jobs-category-title-wrapper {
+        margin-bottom: 20px;
+    }
+
+    .jobs-category-title-wrapper {
+        margin-bottom: 20px;
+    }
+
+    .post-job-tabs-menu {
+        margin-bottom: 60px;
+    }
+
+    .post-job-form-block {
+        max-width: 100%;
+    }
+
+    .container-medium-820px.pricing-free {
+        margin-top: 60px;
+    }
+
+    .pricing-wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .pricing-free-features-grid {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        grid-column-gap: 32px;
+        -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    }
+
+    .credit-item {
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+
+    .credit-item:last-child {
+        margin-bottom: 0px;
+    }
+
+    .card-credit-item-content-top {
+        max-width: 40%;
+    }
+
+    .card-credit-item-content-bottom {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+    }
+
+    .credit-wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .pay-credit-content-top {
+        max-width: 440px;
+    }
+
+    .credit-add-cart-buttons-wrapper {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .about-hero-wrapper {
+        margin-bottom: 80px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .about-hero-content {
+        max-width: 754px;
+        margin-right: auto;
+        margin-bottom: 50px;
+        margin-left: auto;
+        text-align: center;
+    }
+
+    .about-achievements-wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .testimonial-slide {
+        padding-right: 50px;
+        padding-bottom: 65px;
+        padding-left: 50px;
+    }
+
+    .about-testimonial-slide-wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -webkit-flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-testimonial-slide-content {
+        max-width: 631px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    .about-testimonial-slide-content-bottom {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .about-testimonial-slide-name-wrapper {
+        margin-right: 0px;
+        margin-bottom: 25px;
+    }
+
+    .about-hero-images-wrapper {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .container-medium-657px.blog-hero {
+        margin-bottom: 40px;
+    }
+
+    .container-medium-657px.blog-category {
+        margin-bottom: 40px;
+    }
+
+    .post-featured-main-item {
+        max-width: 707px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .card-post-featured-item-content {
+        max-width: 100%;
+        min-width: auto;
+        padding-top: 49px;
+        padding-bottom: 44px;
+    }
+
+    .card-post-featured-item-content-top {
+        max-width: 511px;
+    }
+
+    .post-featured-wrapper {
+        margin-bottom: 98px;
+    }
+
+    .blog-grid {
+        -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card-post-item-content {
+        max-width: none;
+        margin-right: 32px;
+        margin-left: 32px;
+        padding-top: 35px;
+        padding-bottom: 32px;
+    }
+
+    .card-post-item-content-top {
+        margin-bottom: 35px;
+    }
+
+    .container-medium-940px.post {
+        margin-top: -105px;
+    }
+
+    .rich-text p {
+        margin-bottom: 28px;
+    }
+
+    .rich-text ol {
+        margin-top: 28px;
+        margin-bottom: 40px;
+    }
+
+    .rich-text h3 {
+        margin-top: 40px;
+    }
+
+    .rich-text figure {
+        margin-top: 28px;
+        margin-bottom: 40px;
+    }
+
+    .rich-text h4 {
+        margin-top: 40px;
+    }
+
+    .rich-text blockquote {
+        margin-top: 37px;
+        margin-bottom: 40px;
+    }
+
+    .rich-text h5 {
+        margin-top: 40px;
+    }
+
+    .rich-text ul {
+        margin-top: 28px;
+        margin-bottom: 40px;
+    }
+
+    .rich-text h6 {
+        margin-top: 40px;
+    }
+
+    .blog-section-grid {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .card-post-section-item-content {
+        max-width: none;
+        margin-right: 32px;
+        margin-left: 32px;
+        padding-top: 35px;
+        padding-bottom: 32px;
+    }
+
+    .card-post-section-item-content-top {
+        margin-bottom: 35px;
+    }
+
+    .contact-wrapper {
+        margin-bottom: 93px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .contact-links-grid {
+        justify-items: center;
+        grid-column-gap: 20px;
+        -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+        text-align: left;
+    }
+
+    .contact-email-links-grid {
+        grid-column-gap: 20px;
+    }
+
+    .contact-email-link-text {
+        font-size: 14px;
+    }
+
+    .card-contact-email-link-main-content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .category-title-wrapper.blog-category {
+        margin-bottom: 20px;
+    }
+
+    .dropdown-nav-pages-wrapper {
+        width: auto;
+        margin-bottom: 30px;
+    }
+
+    .dropdown-nav-pages-wrapper.last {
+        width: auto;
+    }
+
+    .dropdown-arrow {
+        font-size: 14px;
+    }
+
+    .dropdown-nav-content {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .nav-link-dropdown {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .dropdown-list {
+        position: static;
+        padding-top: 0px;
+    }
+
+    .dropdown-nav-main-wrapper {
+        padding: 40px 0px 0px;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        border-width: 0px;
+        border-radius: 0px;
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .header-menu-button-icon-wrapper {
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        right: 0%;
+        bottom: 0%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .icon-wrapper {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: 23px;
+        min-height: 20px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .header-menu-button-icon-top {
+        width: 100%;
+        max-height: 2px;
+        min-height: 2px;
+        padding: 0px;
+        background-color: #fff;
+    }
+
+    .header-menu-button-icon-medium {
+        width: 100%;
+        max-height: 2px;
+        min-height: 2px;
+        padding: 0px;
+        background-color: #fff;
+    }
+
+    .header-menu-button-icon-bottom {
+        width: 100%;
+        max-height: 2px;
+        min-height: 2px;
+        padding: 0px;
+        background-color: #fff;
+    }
+
+    .cart {
+        z-index: 999;
+    }
+
+    .cart-wrapper {
+        z-index: 9999999;
+    }
+
+    .rich-text-card-credit p {
+        margin-bottom: 28px;
+    }
+
+    .rich-text-card-credit ol {
+        margin-top: 28px;
+        margin-bottom: 40px;
+    }
+
+    .rich-text-card-credit figure {
+        margin-top: 28px;
+        margin-bottom: 40px;
+    }
+
+    .rich-text-card-credit h4 {
+        margin-top: 40px;
+    }
+
+    .rich-text-card-credit blockquote {
+        margin-top: 37px;
+        margin-bottom: 40px;
+    }
+
+    .rich-text-card-credit h5 {
+        margin-top: 40px;
+    }
+
+    .rich-text-card-credit ul {
+        margin-top: 28px;
+        margin-bottom: 40px;
+    }
+
+    .rich-text-card-credit h6 {
+        margin-top: 40px;
+    }
+
+    .btn-primary {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .card-index.figma-file {
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .image-home-link-wrapper {
+        max-width: 260px;
+    }
+
+    .figma-file-text-wrapper {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
+    .grid-3-columns {
+        -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .grid-3-columns._1-col-tablet {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .grid-2-columns.suprises-pages-right {
+        margin-bottom: 100px;
+        grid-row-gap: 40px;
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .grid-2-columns._1-col-tablet {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .grid-2-columns.suprises-pages-left {
+        margin-bottom: 100px;
+        grid-row-gap: 40px;
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .mg-bottom-32px-2 {
+        margin-bottom: 24px;
+    }
+
+    .display-4 {
+        font-size: 22px;
+        line-height: 38px;
+    }
+
+    .mg-bottom-56px {
+        margin-bottom: 48px;
+    }
+
+    .section-index {
+        padding-top: 118px;
+        padding-bottom: 118px;
+    }
+
+    .section-index.hero-page {
+        background-image: -webkit-gradient(linear, left bottom, left top, color-stop(36%, #fff), color-stop(0, #f2f5ff));
+        background-image: linear-gradient(0deg, #fff 36%, #f2f5ff 0);
+    }
+
+    .line-square-icon.top-bar-close-icon {
+        padding: 18px 24px;
+    }
+
+    .top-bar-flex {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .mg-right-24px.mg-bt-16px {
+        margin-right: 0px;
+        margin-bottom: 16px;
+    }
+
+    .top-bar-padding {
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+
+    .top-bar-wrapper {
+        padding-right: 56px;
+        padding-left: 56px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        margin-bottom: 15px;
+        font-size: 32px;
+    }
+
+    h2 {
+        margin-bottom: 10px;
+        font-size: 27px;
+    }
+
+    h3 {
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    blockquote {
+        padding-right: 67px;
+        padding-left: 67px;
+        font-size: 22px;
+    }
+
+    .section-styleguide {
+        padding-top: 36px;
+    }
+
+    .style-guide-title {
+        font-size: 46px;
+        line-height: 52px;
+    }
+
+    .style-guide-header {
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+
+    .color-primary-grid {
+        -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .color-secondary-grid {
+        -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .color-neutral-grid {
+        -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .paragraph-large {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .style-guide-subheader {
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+
+    .style-guide-content-wrapper {
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+
+    .icons-grid {
+        grid-template-columns: repeat(auto-fit, 80px);
+    }
+
+    .button-primary {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .button-primary.full-width.credit-add-cart-button {
+        margin-right: 20px;
+    }
+
+    .button-primary.header-button {
+        display: none;
+    }
+
+    .button-primary.apply-button {
+        margin-top: 15px;
+    }
+
+    .button-secondary {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .button-secondary.pagination {
+        margin-top: 35px;
+    }
+
+    .button-secondary.pagination-blog {
+        margin-top: 35px;
+    }
+
+    .header {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .nav-item-wrapper.button-mobile {
+        margin-top: 100px;
+    }
+
+    .nav-menu {
+        padding-top: 100px;
+    }
+
+    .footer {
+        padding-top: 40px;
+        padding-bottom: 26px;
+    }
+
+    .footer-logo-container {
+        margin-bottom: 20px;
+    }
+
+    .footer-logo-container.v3 {
+        margin-bottom: 15px;
+    }
+
+    .section {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    .section.home {
+        padding-top: 69px;
+        padding-bottom: 64px;
+    }
+
+    .section.cta {
+        display: none;
+        padding-bottom: 51px;
+    }
+
+    .section.companies {
+        padding-top: 35px;
+        padding-bottom: 51px;
+    }
+
+    .section.company {
+        padding-bottom: 60px;
+    }
+
+    .section.bg-neutral-200.job-category {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .section.post-job {
+        padding-top: 40px;
+    }
+
+    .section.pricing {
+        padding-top: 40px;
+    }
+
+    .section.credit {
+        padding-top: 45px;
+        padding-bottom: 77px;
+    }
+
+    .section.about-hero {
+        padding-top: 45px;
+        padding-bottom: 73px;
+    }
+
+    .section.about-testimonials {
+        padding-bottom: 64px;
+    }
+
+    .section.blog {
+        padding-top: 40px;
+        padding-bottom: 77px;
+    }
+
+    .section.post-more-articles {
+        padding-top: 68px;
+        padding-bottom: 60px;
+    }
+
+    .section.contact {
+        padding-top: 45px;
+    }
+
+    .section.faqs {
+        padding-bottom: 100px;
+    }
+
+    .section.pricing-category {
+        padding-top: 40px;
+    }
+
+    .section.blog-category {
+        padding-top: 40px;
+        padding-bottom: 77px;
+    }
+
+    .section.utility-page {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .utility-page-wrap {
+        min-height: 630px;
+    }
+
+    .utility-page-content-password {
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+
+    .input.checkout {
+        min-height: 56px;
+    }
+
+    ._404-title {
+        font-size: 130px;
+    }
+
+    .container-medium-770px.changelog {
+        margin-top: -110px;
+    }
+
+    .divider.footer-content-top-divider {
+        margin-top: 42px;
+        margin-bottom: 50px;
+    }
+
+    .divider.footer-content-bottom-divider {
+        margin-top: 56px;
+        margin-bottom: 26px;
+    }
+
+    .divider.card-job-post-content-divider {
+        margin-top: 47px;
+        margin-bottom: 48px;
+    }
+
+    .divider.card-post-job-form {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .divider.card-credit-item {
+        width: 100%;
+        margin: 23px 0px 32px;
+    }
+
+    .divider.card-post {
+        margin-top: 60px;
+        margin-bottom: 44px;
+    }
+
+    .paragraph.cta {
+        margin-bottom: 23px;
+    }
+
+    .paragraph.company-item {
+        margin-bottom: 20px;
+    }
+
+    .paragraph.pricing-free {
+        margin-bottom: 28px;
+    }
+
+    .paragraph.card-credit {
+        margin-bottom: 35px;
+    }
+
+    .paragraph.pay-credit {
+        margin-bottom: 20px;
+    }
+
+    .paragraph.about-achievements {
+        margin-bottom: 35px;
+    }
+
+    .paragraph.about-testimonial-slide {
+        margin-bottom: 35px;
+    }
+
+    .paragraph.contact {
+        margin-bottom: 35px;
+    }
+
+    .card.changelog {
+        padding: 50px 40px;
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .card.home-jobs-filters {
+        margin-bottom: 50px;
+        padding: 40px 35px;
+    }
+
+    .card.job-board-post {
+        max-width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+        padding-top: 33px;
+        padding-bottom: 40px;
+        -webkit-box-align: stretch;
+        -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+        text-align: left;
+    }
+
+    .card.job-board-featured-companies {
+        max-width: 100%;
+        padding-top: 33px;
+        padding-bottom: 46px;
+        text-align: left;
+    }
+
+    .card.job {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: stretch;
+        -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+    }
+
+    .card.cta {
+        padding: 50px 40px 44px;
+    }
+
+    .card.job-post {
+        margin-bottom: 50px;
+        padding-bottom: 58px;
+    }
+
+    .card.job-post-sidebar {
+        max-width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .card.company-item {
+        padding: 45px 30px 40px;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .card.company {
+        padding-bottom: 56px;
+    }
+
+    .card.job-category-filters {
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+
+    .card.job-empty-state {
+        padding: 60px 30px;
+    }
+
+    .card.post-job-form-card {
+        margin-bottom: 40px;
+        padding: 48px 40px 53px;
+    }
+
+    .card.credit-item-card {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: stretch;
+        -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+    }
+
+    .card.credit {
+        padding: 45px 40px;
+    }
+
+    .card.pay-credit {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .card.about-achievement {
+        padding: 45px 30px;
+    }
+
+    .card.post {
+        padding: 50px 30px 81px;
+    }
+
+    .card.post-section-item {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: stretch;
+        -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+    }
+
+    .card.contact {
+        min-height: 891px;
+        padding: 40px 40px 47px;
+    }
+
+    .card.contact-email-link {
+        max-width: 100%;
+    }
+
+    .card.faq {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .card.default {
+        padding: 40px 30px 33px;
+    }
+
+    .card._404 {
+        padding-right: 30px;
+        padding-bottom: 65px;
+        padding-left: 30px;
+    }
+
+    .checkout-form {
+        padding-top: 64px;
+        padding-bottom: 100px;
+    }
+
+    .checkout-block-header {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .checkout-block-content {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .title.h4-size {
+        font-size: 20px;
+    }
+
+    .title.h4-size.card-job-post-sidebar {
+        margin-bottom: 10px;
+    }
+
+    .title.h4-size.card-post-item {
+        margin-bottom: 15px;
+    }
+
+    .title.h4-size.card-post-section-item {
+        max-width: none;
+        margin-bottom: 15px;
+    }
+
+    .title.featured-jobs {
+        margin-bottom: 16px;
+    }
+
+    .title.jobs {
+        margin-bottom: 16px;
+    }
+
+    .title.h2-size {
+        font-size: 27px;
+    }
+
+    .title.h3-size {
+        font-size: 22px;
+    }
+
+    .title.h3-size.job-description {
+        margin-right: 30px;
+        margin-bottom: 10px;
+    }
+
+    .title.h3-size.job-rich-text {
+        margin-top: 22px;
+        margin-bottom: 10px;
+    }
+
+    .title.h3-size.company-job-openings {
+        margin-bottom: 23px;
+    }
+
+    .title.h3-size.company-about {
+        margin-bottom: 15px;
+    }
+
+    .title.h3-size.company-perks {
+        margin-bottom: 15px;
+    }
+
+    .title.pricing-free {
+        max-width: 364px;
+    }
+
+    .title.about-hero {
+        margin-bottom: 10px;
+    }
+
+    .title.about-testimonial-slide {
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .title.card-post-featured-item {
+        margin-bottom: 10px;
+    }
+
+    .title.blog {
+        margin-bottom: 25px;
+    }
+
+    .title.card-post {
+        margin-bottom: 10px;
+    }
+
+    .title.contact {
+        margin-bottom: 10px;
+    }
+
+    .title.contact-email-links {
+        margin-bottom: 20px;
+    }
+
+    .title.faqs {
+        margin-bottom: 10px;
+    }
+
+    .title.category {
+        margin-right: 8px;
+    }
+
+    .title.h1-size {
+        font-size: 32px;
+    }
+
+    .title.card-changelog {
+        margin-bottom: 10px;
+        border-radius: 14px;
+        font-size: 20px;
+    }
+
+    .split-content.job-board-content {
+        margin-bottom: 50px;
+    }
+
+    .split-content.card-job-left {
+        width: 100%;
+        max-width: 387px;
+        min-width: auto;
+        margin-right: 0px;
+        margin-bottom: 25px;
+    }
+
+    .split-content.card-job-left.result-job {
+        max-width: 387px;
+    }
+
+    .split-content.header-center {
+        margin-right: 0px;
+    }
+
+    .split-content.content-top-company-left {
+        margin-right: 0px;
+        margin-bottom: 25px;
+    }
+
+    .split-content.about-achievements-left {
+        margin-bottom: 50px;
+    }
+
+    .split-content.contact-content {
+        margin-right: 0px;
+        margin-bottom: 50px;
+        margin-left: 0px;
+        text-align: left;
+    }
+
+    .checkout-row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .image-wrapper.card-job {
+        margin-right: 20px;
+    }
+
+    .image-wrapper.card-job-post-logo {
+        width: 80px;
+        min-height: 80px;
+        min-width: 80px;
+        margin-bottom: 20px;
+    }
+
+    .image-wrapper.card-job-post-sidebar-icon {
+        margin-right: 25px;
+    }
+
+    .image-wrapper.company-item {
+        max-width: 69px;
+    }
+
+    .image-wrapper.company-cover {
+        min-height: 134px;
+    }
+
+    .image-wrapper.company {
+        max-width: 120px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        border-radius: 30px;
+    }
+
+    .image-wrapper.about-hero-1 {
+        margin-right: 20px;
+        border-radius: 20px;
+    }
+
+    .image-wrapper.about-hero-2.mobile {
+        border-radius: 20px;
+    }
+
+    .image-wrapper.post-main-image {
+        min-height: 293px;
+    }
+
+    .image-wrapper.card-post-section-item {
+        max-width: 100%;
+    }
+
+    .image-wrapper.card-contact-email-link {
+        margin-right: 23px;
+    }
+
+    .image-wrapper.card-credit-item-icon {
+        margin-bottom: 15px;
+    }
+
+    .image.company-logo {
+        margin-bottom: 15px;
+    }
+
+    .image.company-logo.first {
+        margin-left: 15px;
+    }
+
+    .image.company-logo.last {
+        margin-right: 15px;
+    }
+
+    .image.about-testimonial-slide-image {
+        width: 200px;
+        margin-bottom: 30px;
+    }
+
+    .container-medium-736px.home-hero {
+        margin-bottom: 60px;
+    }
+
+    .container-medium-736px.home-hero.search {
+        margin-bottom: 60px;
+    }
+
+    .companies-wrapper {
+        margin-bottom: 50px;
+    }
+
+    .companies-logos-wrapper {
+        max-width: 532px;
+        margin-bottom: -15px;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .featured-jobs-wrapper {
+        margin-bottom: 46px;
+    }
+
+    .bg.cta-shape-2 {
+        top: -339px;
+    }
+
+    .home-jobs-filter-search {
+        margin-bottom: 16px;
+    }
+
+    .home-jobs-filters-wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: stretch;
+        -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+    }
+
+    .jobs-filters-dropdown-button {
+        margin-right: 0px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .jobs-filters-dropdown {
+        max-width: 100%;
+        margin-right: 0px;
+        margin-bottom: 15px;
+        margin-left: 0px;
+    }
+
+    .jobs-filters-dropdown.job-category-filter {
+        margin-bottom: 0px;
+    }
+
+    .jobs-filters-dropdown-list.w--open {
+        padding-top: 15px;
+    }
+
+    .job-sidebar-wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .footer-content-bottom.v3 {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .footer-main-content {
+        margin-bottom: 35px;
+    }
+
+    .footer-menu-main-content {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .backlink-wrapper {
+        margin-bottom: 28px;
+    }
+
+    .card-job-post-content {
+        margin-top: -40px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .card-job-post-title-wrapper {
+        margin-bottom: 35px;
+    }
+
+    .card-job-post-categories-wrapper {
+        max-width: 415px;
+        margin-right: auto;
+        margin-bottom: -20px;
+        margin-left: auto;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .card-job-post-category-wrapper {
+        margin-right: 15px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
+
+    .job-description-title-wrapper {
+        margin-bottom: 0px;
+        -webkit-flex-wrap: wrap-reverse;
+        -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+    }
+
+    .job-description-date-wrapper {
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width: 479px) {
+    h1 {
+        margin-bottom: 10px;
+        font-size: 27px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+    blockquote {
+        padding: 33px 25px 35px;
+        font-size: 20px;
+    }
+
+    .container-default {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .section-styleguide {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    .style-guide-header {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .color-primary-grid {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .color-secondary-grid {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .color-neutral-grid {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .style-guide-subheader {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .style-guide-content-wrapper {
+        padding: 60px 20px;
+    }
+
+    .icons-grid {
+        grid-template-columns: repeat(auto-fit, 60px);
+    }
+
+    .button-primary {
+        display: block;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .button-primary.small {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .button-primary.small.card-job-board-post {
+        margin-bottom: 15px;
+    }
+
+    .button-primary.small.home-jobs-filter-search-button {
+        position: static;
+        margin-top: 15px;
+        padding-top: 22px;
+        padding-bottom: 22px;
+    }
+
+    .button-primary.small.footer-newsletter {
+        position: static;
+        margin-top: 15px;
+        padding-top: 22px;
+        padding-bottom: 22px;
+    }
+
+    .button-primary.small.job-category-filter-search-button {
+        position: static;
+        margin-top: 15px;
+        padding-top: 22px;
+        padding-bottom: 22px;
+    }
+
+    .button-primary.small.card-post-category {
+        margin-bottom: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .button-primary.full-width.credit-add-cart-button {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .button-primary.button-white.cta-featured {
+        display: block;
+    }
+
+    .button-primary.apply-button {
+        margin-top: 10px;
+    }
+
+    .button-primary.post-job-form-button {
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .button-primary._2-buttons-button {
+        margin-right: 0px;
+    }
+
+    .button-secondary {
+        display: block;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .button-secondary.small {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .button-secondary.pagination {
+        margin-top: 30px;
+        margin-right: 0px;
+        margin-left: 0px;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+    }
+
+    .button-secondary.full-width.credit-add-cart-button {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .button-secondary.pagination-blog {
+        margin-top: 30px;
+        margin-right: 0px;
+        margin-left: 0px;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+    }
+
+    .header-navigation {
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+
+    .nav-item-wrapper {
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
+
+    .nav-link {
+        font-size: 22px;
+    }
+
+    .menu-button {
+        margin-left: 15px;
+        padding: 10px;
+        font-size: 26px;
+    }
+
+    .footer-logo-container {
+        margin-bottom: 15px;
+    }
+
+    .footer-nav {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .section {
+        padding-top: 72px;
+        padding-bottom: 72px;
+    }
+
+    .section.home {
+        padding-top: 50px;
+        padding-bottom: 51px;
+    }
+
+    .section.cta {
+        padding-bottom: 41px;
+    }
+
+    .section.companies {
+        padding-top: 28px;
+        padding-bottom: 41px;
+    }
+
+    .section.company {
+        padding-bottom: 50px;
+    }
+
+    .section.bg-neutral-200.job-category {
+        padding-top: 50px;
+    }
+
+    .section.credit {
+        padding-top: 40px;
+        padding-bottom: 61px;
+    }
+
+    .section.about-hero {
+        padding-top: 40px;
+        padding-bottom: 58px;
+    }
+
+    .section.about-testimonials {
+        padding-bottom: 51px;
+    }
+
+    .section.blog {
+        padding-bottom: 61px;
+    }
+
+    .section.post-more-articles {
+        padding-top: 60px;
+    }
+
+    .section.contact {
+        padding-top: 40px;
+    }
+
+    .section.faqs {
+        padding-bottom: 82px;
+    }
+
+    .section.blog-category {
+        padding-bottom: 61px;
+    }
+
+    .licenses-image {
+        border-radius: 12px;
+    }
+
+    .utility-page-wrap {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .utility-page-content-password {
+        padding: 56px 20px;
+    }
+
+    .input.home-jobs-filter-search-input {
+        padding-right: 20px;
+        padding-left: 50px;
+        background-position: 18px 50%;
+    }
+
+    .input.footer-newsletter {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .input.job-category-filter-search-input {
+        padding-right: 20px;
+        padding-left: 50px;
+        background-position: 18px 50%;
+    }
+
+    .input.file-upload {
+        margin-bottom: 8px;
+    }
+
+    ._404-title {
+        margin-bottom: 20px;
+        font-size: 100px;
+    }
+
+    .container-medium-770px {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .container-medium-770px.changelog {
+        margin-top: -90px;
+    }
+
+    .divider.footer-content-top-divider {
+        margin-top: 35px;
+        margin-bottom: 42px;
+    }
+
+    .divider.footer-content-bottom-divider {
+        margin-top: 47px;
+    }
+
+    .divider.card-job-post-content-divider {
+        margin-top: 38px;
+        margin-bottom: 40px;
+    }
+
+    .divider.card-post-job-form {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .divider.card-credit-item {
+        margin-top: 20px;
+        margin-bottom: 28px;
+    }
+
+    .divider.card-post {
+        margin-top: 50px;
+        margin-bottom: 38px;
+    }
+
+    .icon-password {
+        width: 110px;
+        height: 110px;
+    }
+
+    .paragraph.card-job-board-post {
+        margin-bottom: 20px;
+    }
+
+    .paragraph.cta {
+        margin-bottom: 20px;
+    }
+
+    .paragraph.card-job-post-sidebar {
+        margin-bottom: 22px;
+    }
+
+    .paragraph.file-upload-details {
+        font-size: 14px;
+    }
+
+    .paragraph.pricing {
+        max-width: 402px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .paragraph.pricing-free {
+        margin-bottom: 23px;
+    }
+
+    .paragraph.card-credit {
+        margin-bottom: 30px;
+    }
+
+    .paragraph.about-achievements {
+        margin-bottom: 30px;
+    }
+
+    .paragraph.about-testimonial-slide {
+        margin-bottom: 30px;
+    }
+
+    .paragraph.blog-hero {
+        max-width: 396px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .paragraph.contact {
+        margin-bottom: 30px;
+    }
+
+    .paragraph.blog-category {
+        max-width: 396px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .card.changelog {
+        padding: 40px 25px;
+    }
+
+    .card.home-jobs-filters {
+        margin-bottom: 40px;
+        padding: 33px 25px;
+    }
+
+    .card.job-board-post {
+        padding: 28px 25px 33px;
+    }
+
+    .card.job-board-featured-companies {
+        padding: 28px 25px 33px;
+    }
+
+    .card.cta {
+        padding: 40px 25px 37px;
+    }
+
+    .card.job-post {
+        margin-bottom: 40px;
+        padding-bottom: 48px;
+    }
+
+    .card.job-post-sidebar {
+        padding: 33px 25px 35px;
+    }
+
+    .card.company-item {
+        padding: 38px 25px 33px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .card.company {
+        padding-bottom: 47px;
+    }
+
+    .card.job-category-filters {
+        padding: 33px 25px;
+    }
+
+    .card.job-empty-state {
+        padding: 50px 25px;
+    }
+
+    .card.post-job-form-card {
+        padding: 40px 25px 44px;
+    }
+
+    .card.credit-item-card {
+        padding: 33px 25px;
+    }
+
+    .card.credit {
+        margin-bottom: 35px;
+        padding: 38px 25px;
+    }
+
+    .card.pay-credit {
+        padding: 35px 25px;
+    }
+
+    .card.about-achievement {
+        margin-bottom: 20px;
+        padding: 38px 25px;
+    }
+
+    .card.post {
+        padding: 40px 25px 68px;
+    }
+
+    .card.contact {
+        padding: 33px 25px 40px;
+    }
+
+    .card.contact-email-link {
+        padding: 30px 25px;
+    }
+
+    .card.faq {
+        padding: 30px 25px;
+    }
+
+    .card.default {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    .card._404 {
+        padding: 33px 25px 60px;
+    }
+
+    .checkout-form {
+        padding-top: 60px;
+        padding-bottom: 82px;
+    }
+
+    .checkout-block-header {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .checkout-block-content {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .title.checkout {
+        font-size: 16px;
+    }
+
+    .title.h4-size {
+        font-size: 18px;
+    }
+
+    .title.h4-size.card-post-item {
+        max-width: 310px;
+        margin-bottom: 10px;
+    }
+
+    .title.h4-size.card-post-section-item {
+        max-width: 310px;
+        margin-bottom: 10px;
+    }
+
+    .title.h5-size {
+        font-size: 16px;
+    }
+
+    .title.h5-size.card-contact-email-link {
+        margin-bottom: 3px;
+    }
+
+    .title.h5-size.dropdown-nav-title {
+        margin-bottom: 15px;
+    }
+
+    .title.card-job-board-post {
+        margin-bottom: 10px;
+    }
+
+    .title.featured-companies {
+        margin-bottom: 28px;
+    }
+
+    .title.footer-menu {
+        margin-bottom: 25px;
+    }
+
+    .title.h2-size {
+        font-size: 22px;
+    }
+
+    .title.h3-size {
+        font-size: 20px;
+    }
+
+    .title.h3-size.job-rich-text {
+        margin-top: 30px;
+    }
+
+    .title.h3-size.company-job-openings {
+        margin-bottom: 20px;
+    }
+
+    .title.h3-size.company-about {
+        margin-bottom: 10px;
+    }
+
+    .title.h3-size.company-perks {
+        margin-bottom: 10px;
+    }
+
+    .title.about-testimonials {
+        max-width: 224px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .title.about-testimonial-slide {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .title.blog {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .title.faq {
+        font-size: 18px;
+    }
+
+    .title.h1-size {
+        font-size: 27px;
+    }
+
+    .split-content.job-board-content {
+        margin-bottom: 40px;
+    }
+
+    .split-content.card-job-left {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .split-content.card-job-right {
+        margin-bottom: -20px;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .split-content.content-top-more-jobs-left {
+        margin-bottom: 20px;
+    }
+
+    .split-content.content-top-company-left {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .split-content.about-achievements-right {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .split-content.content-top-post-more-articles-left {
+        margin-bottom: 30px;
+    }
+
+    .checkout-required-text {
+        font-size: 15px;
+    }
+
+    .order-item {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .image-wrapper.order-item-image {
+        margin-bottom: 15px;
+    }
+
+    .image-wrapper.card-job-board-post-icon {
+        margin-bottom: 15px;
+    }
+
+    .image-wrapper.featured-company {
+        max-width: 40px;
+        margin-right: 10px;
+    }
+
+    .image-wrapper.card-job {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    .image-wrapper.card-job-post-logo {
+        width: 70px;
+        min-height: 70px;
+        min-width: 70px;
+        margin-bottom: 15px;
+    }
+
+    .image-wrapper.card-job-post-sidebar-icon {
+        width: 50px;
+        min-height: 50px;
+        min-width: 50px;
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+
+    .image-wrapper.company-item {
+        max-width: 65px;
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+
+    .image-wrapper.company {
+        max-width: 100px;
+        margin-bottom: 15px;
+    }
+
+    .image-wrapper.about-hero-1 {
+        margin-right: 10px;
+        border-radius: 15px;
+    }
+
+    .image-wrapper.about-hero-2.mobile {
+        border-radius: 15px;
+    }
+
+    .image-wrapper.post-main-image {
+        min-height: 183px;
+    }
+
+    .image-wrapper.contact-link-icon {
+        max-width: 40px;
+        min-width: 40px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+
+    .image-wrapper.card-contact-email-link {
+        width: 60px;
+        min-height: 60px;
+        min-width: 60px;
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+
+    .image.company-logo {
+        width: 90px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .image.company-logo.first {
+        margin-left: 10px;
+    }
+
+    .image.company-logo.last {
+        margin-right: 10px;
+    }
+
+    .image.job-category {
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+
+    .image.credit-feature-icon {
+        margin-right: 10px;
+    }
+
+    .image.about-testimonial-slide-image {
+        width: 180px;
+        margin-bottom: 25px;
+    }
+
+    .image.style-guide-icon {
+        width: 60px;
+        max-height: 60px;
+        min-height: 60px;
+        min-width: 60px;
+    }
+
+    .image.jobs-filters {
+        margin-bottom: 15px;
+    }
+
+    .order-item-wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .grid-licenses-images {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .container-medium-736px {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .container-medium-736px.home-hero {
+        margin-bottom: 50px;
+    }
+
+    .container-medium-736px.home-hero.search {
+        margin-bottom: 50px;
+    }
+
+    .companies-wrapper {
+        max-width: 402px;
+        margin-right: auto;
+        margin-bottom: 40px;
+        margin-left: auto;
+    }
+
+    .companies-text {
+        margin-bottom: 15px;
+    }
+
+    .featured-jobs-wrapper {
+        margin-bottom: 40px;
+    }
+
+    .bg.cta-shape-1 {
+        left: -79px;
+        bottom: -121px;
+    }
+
+    .bg.cta-shape-2 {
+        top: -121px;
+        right: -123px;
+    }
+
+    .card-job-category-wrapper {
+        margin-right: 25px;
+        margin-bottom: 20px;
+    }
+
+    .card-job-category-title-wrapper {
+        margin-bottom: 8px;
+    }
+
+    .card-job-category-text {
+        font-size: 14px;
+    }
+
+    .home-jobs-filter-search {
+        min-width: auto;
+        margin-bottom: 25px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: stretch;
+        -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+    }
+
+    .jobs-filters-dropdown-button {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .footer-main-content {
+        margin-bottom: 30px;
+    }
+
+    .footer-newsletter-form {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: stretch;
+        -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+    }
+
+    .footer-menu-main-content {
+        margin-bottom: -20px;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .footer-menu-wrapper {
+        margin-right: 35px;
+        margin-bottom: 20px;
+    }
+
+    .footer-menu-content {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .footer-menu-job-categories-content {
+        margin-top: 20px;
+        margin-bottom: -20px;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .brand {
+        margin-right: 15px;
+    }
+
+    .backlink-wrapper {
+        margin-bottom: 23px;
+    }
+
+    .card-job-post-content {
+        margin-top: -35px;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+
+    .card-job-post-title-wrapper {
+        margin-bottom: 30px;
+    }
+
+    .card-job-post-category-title-wrapper {
+        margin-bottom: 8px;
+    }
+
+}
+
+@font-face {
+    font-family: 'Icons Job Board X Template';
+    src: url('https://assets.website-files.com/60c77302fcfa2b84ab595f64/60ccd05c82c9a824f845de9a_icons-job-board-x-template.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Social Icons Font';
+    src: url('https://assets.website-files.com/60c77302fcfa2b84ab595f64/63e1846676b2b8bde8235035_social-icon-font.woff2') format('woff2'), url('https://assets.website-files.com/60c77302fcfa2b84ab595f64/63e184667fb8de5fbd1ae3fe_social-icon-font.eot') format('embedded-opentype'), url('https://assets.website-files.com/60c77302fcfa2b84ab595f64/63e184667fb8de40ed1ae3ff_social-icon-font.woff') format('woff'), url('https://assets.website-files.com/60c77302fcfa2b84ab595f64/63e18466d4706b9b99e26736_social-icon-font.ttf') format('truetype'), url('https://assets.website-files.com/60c77302fcfa2b84ab595f64/63e18466eec90373398b4a5a_social-icon-font.svg') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Line Square Icons';
+    src: url('https://assets.website-files.com/60c77302fcfa2b84ab595f64/63e18482fd773c80fe903d2d_line-square-icons.woff2') format('woff2'), url('https://assets.website-files.com/60c77302fcfa2b84ab595f64/63e1848323839ffdf1600283_line-square-icons.eot') format('embedded-opentype'), url('https://assets.website-files.com/60c77302fcfa2b84ab595f64/63e18482d4706b33a5e268c7_line-square-icons.woff') format('woff'), url('https://assets.website-files.com/60c77302fcfa2b84ab595f64/63e18483fa1fdf6aa24711f9_line-square-icons.ttf') format('truetype'), url('https://assets.website-files.com/60c77302fcfa2b84ab595f64/63e184826517562c68b1d60a_line-square-icons.svg') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Line Rounded Icons';
+    src: url('https://assets.website-files.com/60c77302fcfa2b84ab595f64/63e1850f4f2f9f5eb41103d7_line-rounded-icons.woff2') format('woff2'), url('https://assets.website-files.com/60c77302fcfa2b84ab595f64/63e1850f597f4a8494a77f8e_line-rounded-icons.eot') format('embedded-opentype'), url('https://assets.website-files.com/60c77302fcfa2b84ab595f64/63e1850f25a934b40382fbce_line-rounded-icons.woff') format('woff'), url('https://assets.website-files.com/60c77302fcfa2b84ab595f64/63e1850fad3d49cd37414fd0_line-rounded-icons.ttf') format('truetype'), url('https://assets.website-files.com/60c77302fcfa2b84ab595f64/63e1850f23839fdb386007e9_line-rounded-icons.svg') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Filled Icons';
+    src: url('https://assets.website-files.com/60c77302fcfa2b84ab595f64/63e1881b2215a993f9cc1a21_filled-icon-font.woff2') format('woff2'), url('https://assets.website-files.com/60c77302fcfa2b84ab595f64/63e1881b597f4a0a38a7c2d1_filled-icon-font.eot') format('embedded-opentype'), url('https://assets.website-files.com/60c77302fcfa2b84ab595f64/63e1881beec9032b668b93fe_filled-icon-font.woff') format('woff'), url('https://assets.website-files.com/60c77302fcfa2b84ab595f64/63e1881cd4706b5990e2af77_filled-icon-font.ttf') format('truetype'), url('https://assets.website-files.com/60c77302fcfa2b84ab595f64/63e1881b597f4a8384a7c2d2_filled-icon-font.svg') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'General Sans';
+    src: url('https://assets.website-files.com/60c77302fcfa2b84ab595f64/60c776f9e35ebe1c15f374f9_GeneralSans-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'General Sans';
+    src: url('https://assets.website-files.com/60c77302fcfa2b84ab595f64/60c776fbb4465d24b19aba0d_GeneralSans-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'General Sans';
+    src: url('https://assets.website-files.com/60c77302fcfa2b84ab595f64/60c786934b6b9184581fb958_GeneralSans-Semibold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}

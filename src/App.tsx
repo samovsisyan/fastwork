@@ -28,9 +28,11 @@ import JobCategory from "./pages/jobCategory";
 import CompanySingle from "./pages/companySingle";
 import Blog from "./pages/blog";
 import BlogPost from "./pages/blogPost";
+import PostFreeJob from "./pages/postFreeJob";
 const App: FC<any> = () => {
   return (
     <>
+      <PostFreeJob />
       <BlogPost />
       <Blog />
       <CompanySingle />
